@@ -1,4 +1,4 @@
-**1). What is Maven?**
+**1. What is Maven?**
 
 Maven is a project management build automation tool. 
 Building a project means 
@@ -29,7 +29,7 @@ of archetypes like standalone, webapp, EAR etc another additional advantage is t
 these archetypes we can create the project's the different types of maven projects from within an IDE and also run and execute our build from within
 eclipse from within intelliJ.
 
-**2). Why is Maven ?**
+**2. Why is Maven ?**
 
 The million-dollar question why use maven in addition to its convention over configuration maven offers several other
 advantages such as a common interface for the developers before maven if we as developers had to work on an open source project or even another project within our company or enterprise we had first understand how to build that project because each team might have
@@ -64,8 +64,7 @@ after that it will not download it until this plugin changes that is the beauty 
 on the fly with all these advantages maven of course is one of the best build management dependency management and completely a project management tool
 that should be used.
 
-
-> **what is pom.xml file?**
+**3. what is pom.xml file?**
 
 When we execute a maven command to build a project the maven command looks for the pom dot XML under the project for information open this pom dot XML and it has a lot of information such as what type of project it is in this case it is
 a jar project it could be war or several other types that are available the name of the project the artifact ID as well
@@ -82,8 +81,7 @@ the reason it included J unit library in here we can add any number of libraries
 dependencies can be added and you willbe doing that in lectures later on this is the simplest of maven files that you
 can see you are going to modify this mail file later on and create much more complex maven files.
 
-
-> **Maven Life Cycle Phases**
+**4. Maven Life Cycle Phases**
 
 when you ran the maven install command we have asked me when to execute a life cycle phase maven has multiple lifecycle phases starting from process resources compile test package and many more for brevity reasons I have skipped some
 phases in between as well as after package when you execute a maven package maven will run all the phases prior to
@@ -106,7 +104,7 @@ jar colon  jar and if it is a web application project maven dynamically associat
 as a developer once you know that this is how the phases and goals work you can work on any java project developed by
 any other team and easily build it.
 
-> **Maven Plugins**
+**5. Maven Plugins**
 
 In this lecture, we will learn the two key concepts of maven namely the maven plugins and goals a maven plugin is a collection of one or more goals you have
 already used a couple of goals when you created the project and built it the generate goal from the archetype plugin and the install goal from the install
@@ -129,7 +127,7 @@ default plugins through the settings through the parent settings but we can over
 pom dot xml for example later on in later sections you will be overriding the compiler settings by defining it in your pom dot XML and
 it will switch the version to 1.8
 
-> **Maven Profiles**
+**6. Maven Profiles**
 
 Build portability means the deployment engineer or a devops engineer or even a developer should be able to build the application across different environments without changing any configuration or by changing
 a little configuration maven allows  build portability through its profiles for example when
@@ -165,8 +163,7 @@ have application.properties test and then prod as well and depending on which ou
 the build will pick up that particular application.properties which will have the connection information.
 So you're going to see Maven profiles how to activate them and much more in action in the next few lectures.
 
-> **Maven Scopes**
-
+**7. Maven Scopes**
 
 Maven allows us to specify the visibility of our project dependencies using a scope element which scope
 we use will impact on when those dependencies are available in the maven lifecycle for our project
