@@ -1,12 +1,12 @@
 > **What is Maven?**
 
-What is maven the developers call it a build automation tool but it is much more than that it is a project management tool. Building a project means
-compiling the source code running the
+Maven is a project management build automation tool. 
+Building a project means 
+- compiling the source code
+- running the tests which could be unit tests as well as integration tests
+- packaging the compiled code into jar files bundling these jar files into a web archive or a war file
 
-tests which could be unit tests as well as integration tests packaging the compiled code into jar files bundling
-these jar files into a web archive or a war file deploying these wars on to the servers and several other tasks all these tasks can be automated using tools
-such as maven and etc if you have worked with tools like ant apache ant then you know that we have to come up with a lot of XML configuration to perform these
-tasks or to automate these tasks for our application whereas maven uses convention over configuration 
+Maven uses convention over configuration.
 
 that is if we follow a certain project structure when we create our projects such as here is the base project directory under it source main Java source folder has a
 child folder called main under it we have Java this is where all our source code should go source main SRC main resources is where any resources such as property files or XML configuration that
