@@ -1,4 +1,4 @@
-> **What is Maven?**
+**1). What is Maven?**
 
 Maven is a project management build automation tool. 
 Building a project means 
@@ -29,8 +29,7 @@ of archetypes like standalone, webapp, EAR etc another additional advantage is t
 these archetypes we can create the project's the different types of maven projects from within an IDE and also run and execute our build from within
 eclipse from within intelliJ.
 
-
-> **Why is Maven ?**
+**2). Why is Maven ?**
 
 The million-dollar question why use maven in addition to its convention over configuration maven offers several other
 advantages such as a common interface for the developers before maven if we as developers had to work on an open source project or even another project within our company or enterprise we had first understand how to build that project because each team might have
